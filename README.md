@@ -1,14 +1,14 @@
-#Hi! I'm a beginner QA engineer.  
+# Hi! I'm a beginner QA engineer.  
 I'm learning the basics of manual testing and working with Git/GitHub.  
 This repository contains my test cases, bug reports, and study projects.
 
-#Skills
+# Skills
 - Test cases and bug reports  
 - Git and GitHub  
 - Web application testing basics  
 - Attention to detail
 
-#Goal
+# Goal
 To grow in QA and help create high-quality products.
 
 # Contacts
