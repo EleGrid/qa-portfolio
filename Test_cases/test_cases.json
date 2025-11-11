@@ -1,0 +1,11 @@
+{
+  "TestCase_id":"1",
+  "Title":"When the application is launched for the first time, it requests permission to send push notifications",
+  "Steps":
+  {
+    "1":"Install the application on a mobile device",
+    "2":"Open the application",
+    "3":"Check for a message requesting permission to send push notifications in the application",
+  },
+  "Expected result":"When the application is launched for the first time, it requests permission to send push notifications"
+}
