@@ -1,4 +1,4 @@
-Hi! I'm a beginner QA engineer.  
+#Hi! I'm a beginner QA engineer.  
 I'm learning the basics of manual testing and working with Git/GitHub.  
 This repository contains my test cases, bug reports, and study projects.
 
