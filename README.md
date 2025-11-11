@@ -1,16 +1,23 @@
-# Hi! I'm a beginner QA engineer.  
-I'm learning the basics of manual testing and working with Git/GitHub.  
-This repository contains my test cases, bug reports, and study projects.
+# 👩‍💻 QA Portfolio
 
-# Skills
-- Test cases and bug reports  
-- Git and GitHub  
-- Web application testing basics  
-- Attention to detail
+Hi! I'm a **beginner QA engineer** passionate about learning manual testing and version control with **Git/GitHub**.  
+This repository showcases my **test cases**, **bug reports**, and **study projects**.
 
-# Goal
-To grow in QA and help create high-quality products.
+---
 
-# Contacts
-📧 gridinaeqa@gmail.com  
-💬 [@Gridina_Elena](https://t.me/Gridina_Elena)
+## 🧩 Skills
+- ✏️ Writing **test cases** and **bug reports**  
+- 🌿 Working with **Git** and **GitHub**  
+- 🌐 **Web application testing** basics  
+- 🔍 Strong **attention to detail**
+
+---
+
+## 🎯 Goal
+To grow as a **QA professional** and contribute to creating **high-quality, user-friendly products**.
+
+---
+
+## 📬 Contacts
+- **Email:** [gridinaeqa@gmail.com](mailto:gridinaeqa@gmail.com)  
+- **Telegram:** [@Gridina_Elena](https://t.me/Gridina_Elena)
