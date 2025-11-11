@@ -12,8 +12,9 @@
   {
   "TestCase_id": "2",
   "Title": "Validation of the Hours field: Checking system acceptance of the number 0 and automatic addition of 0 before the number",
-  "Steps": {
-    "1": "Open WebAplication,
+  "Steps": 
+  {
+    "1": "Open WebApp,"
     "2": "Enter the value 0 in the Hours field",
     "3": "Remove focus from the field"
   },
