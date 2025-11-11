@@ -1,0 +1,67 @@
+[
+  {
+    "id": "BUG-001",
+    "title": "Pressing 'Enter' in the Order Number field does not lead to the Order Status page or error window",
+    "severity": "Critical",
+    "status": "Open",
+    "preconditions": [
+      "Main page of WebApp is opened"
+    ],
+    "stepsToReproduce": [
+      "Click the 'Order Status' button",
+      "Click the 'Order Number' field in the header",
+      "Enter an existing order number into the field",
+      "Press 'Enter'"
+    ],
+    "expectedResult": "When pressing 'Enter' after entering an existing (or non-existing) order number, the user is redirected to the Order Status page or an error window is displayed.",
+    "actualResult": "When pressing 'Enter' after entering an existing (or non-existing) order number, no redirection to the Order Status page or error window occurs.",
+    "environment": [
+      "Chrome 135.0.7049.86, resolution 1280x720",
+      "Yandex Browser 25.2.5.956 (64-bit), resolution 1920x1080",
+      "Windows 11 Pro 24H2"
+    ],
+    "notes": "Check the Enter key event handler for the Order Number field; possibly a form submission or key listener issue."
+  },
+  {
+    "id": "BUG-002",
+    "title": "The 'GO' button is missing to the right of the 'Order Number' field in the header",
+    "severity": "Normal",
+    "status": "Open",
+    "preconditions": [
+      "Main page of WebApp is opened"
+    ],
+    "stepsToReproduce": [
+      "Click the 'Order Status' button",
+      "Look at the top right corner near the 'Order Number' field"
+    ],
+    "expectedResult": "The 'GO' button is displayed to the right of the 'Order Number' field.",
+    "actualResult": "The 'GO' button to the right of the 'Order Number' field is missing.",
+    "environment": [
+      "Chrome 135.0.7049.86, resolution 1280x720",
+      "Yandex Browser 25.2.5.956 (64-bit), resolution 1920x1080",
+      "Windows 11 Pro 24H2"
+    ],
+    "notes": "According to the design or requirements, the GO button should be displayed — possibly hidden by CSS/JS or not rendered at certain resolutions."
+  },
+  {
+    "id": "BUG-003",
+    "title": "Duplicate 'Order Status' button displayed on the Order Status page (next to 'Order' button)",
+    "severity": "Normal",
+    "status": "Open",
+    "preconditions": [
+      "Order Status page is opened"
+    ],
+    "stepsToReproduce": [
+      "Open the 'Order Status' page",
+      "Look at the top right corner of the window (next to the 'Order' button)"
+    ],
+    "expectedResult": "The 'Order Status' button in the top right corner is not displayed (should not be duplicated).",
+    "actualResult": "A duplicate 'Order Status' button is displayed on the Order Status page next to the 'Order' button.",
+    "environment": [
+      "Chrome 135.0.7049.86, resolution 1280x720",
+      "Yandex Browser 25.2.5.956 (64-bit), resolution 1920x1080",
+      "Windows 11 Pro 24H2"
+    ],
+    "notes": "Possible duplication of a navigation element; check component rendering conditions and visibility at different screen resolutions."
+  }
+]
