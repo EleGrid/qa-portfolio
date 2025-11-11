@@ -1,0 +1,36 @@
+{
+  "TestCase_id":"1",
+  "Title":"When the application is launched for the first time, it requests permission to send push notifications",
+  "Steps":
+  {
+    "1":"Install the application on a mobile device",
+    "2":"Open the application",
+    "3":"Check for a message requesting permission to send push notifications in the application",
+  },
+  "Expected result":"When the application is launched for the first time, it requests permission to send push notifications"
+
+  {
+  "TestCase_id": "2",
+  "Title": "Validation of the Hours field: Checking system acceptance of the number 0 and automatic addition of 0 before the number",
+  "Steps": 
+  {
+    "1": "Open WebApp,"
+    "2": "Enter the value 0 in the Hours field",
+    "3": "Remove focus from the field"
+  },
+  "Expected result": "The value is accepted by the system without errors, and 0 is automatically added before the number"
+  {
+  "TestCase_id": "3",
+  "Title": "Successful authorization",
+  "Preconditions": {
+    "1": "Registration in the system is completed, a valid login (engelskeLetter) and password (ktokto17) are obtained",
+    "2": "The user is not authorized in the system",
+    "3": "The authorization page of the system is open"
+  },
+  "Steps": {
+    "1": "Enter the login from the precondition into the Username field",
+    "2": "Enter the password from the precondition into the Password field",
+    "3": "Click the Login button"
+  },
+  "Expected result": "Successful authorization occurs, and the page for adding a new cat opens"
+}
